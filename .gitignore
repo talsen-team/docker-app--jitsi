@@ -6,4 +6,5 @@
 !bash-util
 !.gitignore
 !.gitmodules
+!host.env
 !LICENCE
