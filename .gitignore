@@ -4,6 +4,15 @@
 !.vscode/tasks.json
 !bash-commands
 !bash-util
+!docker/
+!docker/server--jitsi-jicofo/
+!docker/server--jitsi-jicofo/default.docker
+!docker/server--jitsi-jvb/
+!docker/server--jitsi-jvb/default.docker
+!docker/server--jitsi-prosody/
+!docker/server--jitsi-prosody/default.docker
+!docker/server--jitsi-web/
+!docker/server--jitsi-web/default.docker
 !.env
 !.gitignore
 !.gitmodules
