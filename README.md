@@ -1,4 +1,4 @@
-# docker-app: wodpress
+# docker-app: jitsi
 
 ![GitHub tag (latest by date)](https://img.shields.io/github/tag-date/talsen-team/docker-app--jitsi.svg?style=for-the-badge)
 
