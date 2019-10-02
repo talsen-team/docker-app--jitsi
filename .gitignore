@@ -13,6 +13,9 @@
 !docker/server--jitsi-prosody/default.docker
 !docker/server--jitsi-web/
 !docker/server--jitsi-web/default.docker
+!docker-compose/
+!docker-compose/server--jitsi/
+!docker-compose/server--jitsi/default.docker-compose
 !.env
 !.gitignore
 !.gitmodules
