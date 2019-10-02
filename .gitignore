@@ -4,6 +4,7 @@
 !.vscode/tasks.json
 !bash-commands
 !bash-util
+!.env
 !.gitignore
 !.gitmodules
 !host.env
