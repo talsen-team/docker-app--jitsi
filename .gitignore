@@ -16,7 +16,6 @@
 !docker-compose/
 !docker-compose/server--jitsi/
 !docker-compose/server--jitsi/default.docker-compose
-!.env
 !.gitignore
 !.gitmodules
 !host.env
