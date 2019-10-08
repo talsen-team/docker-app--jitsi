@@ -2,6 +2,8 @@ Hello there,
 
 I'm coming from a few different GitHub issues / community questions ( https://github.com/jitsi/jitsi-meet/issues/2422 ; https://community.jitsi.org/t/issues-with-using-nginx-on-separate-server/15783 ; https://github.com/jitsi/jitsi-meet/issues/223 ).
 
+Link back to [community.jitsi.org](https://community.jitsi.org/t/server-docker-jitsi-from-subroute-behind-nginx-reverse-proxy/20134)
+
 ## How does our setup look like:
 
 We have a certain sub-domain ( e.g. sub.example.com ), which is serving an application that should / will integrate Jitsi via an IFrame.
