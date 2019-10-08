@@ -1413,5 +1413,6 @@ I'm not quite sure where the error arises from.
 ## Additional info:
 
 Regading the Docker Jitsi, we are using a rather old image from around February 2019 ( https://hub.docker.com/r/talsenteam/docker-jitsi-jicofo/tags ; https://hub.docker.com/r/talsenteam/docker-jitsi-jvb/tags ; https://hub.docker.com/r/talsenteam/docker-jitsi-prosody/tags ; https://hub.docker.com/r/talsenteam/docker-jitsi-web/tags ) -> tag v2019-02.
+We suspended upgrading to the latest version for now, because of API changes. But as far as I tested it should not make a difference ( because the latest version shows the same behavior in both scenarios, when served at sub-domain level and at sub-route level ).
 
 Furthermore when Docker Jitsi is served directly under sub.example.com with the same configuration ( except changes made in **.jitsi-meet-cfg/web/config.js** ) it works fine, even for three or more users.
