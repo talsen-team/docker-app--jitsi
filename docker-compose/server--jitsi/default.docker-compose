@@ -20,7 +20,7 @@ services:
       -                   JVB_BREWERY_MUC
       -                   JIGASI_BREWERY_MUC
       -                   TZ
-    image:               'talsenteam/docker-jitsi-jicofo:v3936'
+    image:               'talsenteam/docker-jitsi-jicofo:v4101'
     networks:
         meet.jitsi:
     restart:             'no'
@@ -49,7 +49,7 @@ services:
       -                   JVB_ENABLE_APIS
       -                   JICOFO_AUTH_USER
       -                   TZ
-    image:               'talsenteam/docker-jitsi-jvb:v3936'
+    image:               'talsenteam/docker-jitsi-jvb:v4101'
     networks:
         meet.jitsi:
     ports:
@@ -111,7 +111,7 @@ services:
       -                  '5222'
       -                  '5347'
       -                  '5280'
-    image:               'talsenteam/docker-jitsi-prosody:v3936'
+    image:               'talsenteam/docker-jitsi-prosody:v4101'
     networks:
         meet.jitsi:
           aliases:
@@ -146,7 +146,7 @@ services:
       -                   XMPP_MUC_DOMAIN
       -                   ETHERPAD_URL_BASE
       -                   TZ
-    image:               'talsenteam/docker-jitsi-web:v3936'
+    image:               'talsenteam/docker-jitsi-web:v4101'
     networks:
         meet.jitsi:
     ports:
