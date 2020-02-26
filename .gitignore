@@ -8,6 +8,8 @@
 !docker/server--jitsi-jicofo/
 !docker/server--jitsi-jicofo/default.docker
 !docker/server--jitsi-jvb/
+!docker/server--jitsi-jvb/rootfs/
+!docker/server--jitsi-jvb/rootfs/**
 !docker/server--jitsi-jvb/default.docker
 !docker/server--jitsi-prosody/
 !docker/server--jitsi-prosody/default.docker

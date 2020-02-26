@@ -1,1 +1,3 @@
 FROM jitsi/jvb:4101
+
+COPY ./rootfs/ /
