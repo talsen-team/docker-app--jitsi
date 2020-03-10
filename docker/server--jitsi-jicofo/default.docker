@@ -1,1 +1,1 @@
-FROM jitsi/jicofo:4101
+FROM jitsi/jicofo:3936
