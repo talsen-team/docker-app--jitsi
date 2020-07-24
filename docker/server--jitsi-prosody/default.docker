@@ -1,1 +1,1 @@
-FROM jitsi/prosody:3936
+FROM jitsi/prosody:stable-4857
