@@ -43,7 +43,7 @@ services:
       -                   XMPP_INTERNAL_MUC_DOMAIN
       -                   XMPP_MUC_DOMAIN
       -                   XMPP_SERVER
-    image:               'talsenteam/docker-jitsi-jicofo:v5390-3'
+    image:               'talsenteam/docker-jitsi-jicofo:v5390'
     networks:
         meet.jitsi:
     restart:             'no'
@@ -75,7 +75,7 @@ services:
       -                   XMPP_AUTH_DOMAIN
       -                   XMPP_INTERNAL_MUC_DOMAIN
       -                   XMPP_SERVER
-    image:               'talsenteam/docker-jitsi-jvb:v5390-3'
+    image:               'talsenteam/docker-jitsi-jvb:v5390'
     networks:
       meet.jitsi:
         aliases:
@@ -156,7 +156,7 @@ services:
       -                  '5222'
       -                  '5280'
       -                  '5347'
-    image:               'talsenteam/docker-jitsi-prosody:v5390-3'
+    image:               'talsenteam/docker-jitsi-prosody:v5390'
     networks:
       meet.jitsi:
         aliases:
@@ -279,7 +279,7 @@ services:
       -                   XMPP_GUEST_DOMAIN
       -                   XMPP_MUC_DOMAIN
       -                   XMPP_RECORDER_DOMAIN
-    image:               'talsenteam/docker-jitsi-web:v5390-3'
+    image:               'talsenteam/docker-jitsi-web:v5390'
     networks:
       meet.jitsi:
         aliases:
