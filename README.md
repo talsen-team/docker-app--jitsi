@@ -20,6 +20,12 @@ jitsi-prosody:
 [![Docker Pulls](https://img.shields.io/docker/pulls/talsenteam/docker-jitsi-prosody.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-jitsi-prosody/)
 [![Docker Build Status](https://img.shields.io/docker/cloud/build/talsenteam/docker-jitsi-prosody.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-jitsi-prosody/)
 
+jitsi-prosody-database:
+
+[![Docker Automated build](https://img.shields.io/docker/cloud/automated/talsenteam/docker-jitsi-prosody-database.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-jitsi-prosody-database/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/talsenteam/docker-jitsi-prosody-database.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-jitsi-prosody-database/)
+[![Docker Build Status](https://img.shields.io/docker/cloud/build/talsenteam/docker-jitsi-prosody-database.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-jitsi-prosody-database/)
+
 jitsi-web:
 
 [![Docker Automated build](https://img.shields.io/docker/cloud/automated/talsenteam/docker-jitsi-web.svg?style=for-the-badge)](//hub.docker.com/r/talsenteam/docker-jitsi-web/)

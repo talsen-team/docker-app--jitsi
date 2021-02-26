@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bash
+
+while ! mysqladmin ping -h"$MYSQL_DATABASE_HOST" --silent; do
+    sleep 1
+done

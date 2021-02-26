@@ -1,1 +1,1 @@
-FROM jitsi/web:stable-4857
+FROM jitsi/web:stable-5390-3

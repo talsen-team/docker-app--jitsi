@@ -1,1 +1,10 @@
-FROM jitsi/prosody:stable-4857
+FROM jitsi/prosody:stable-5390-3
+
+ENV DEBIAN_FRONTEND noninteractive
+
+RUN apt-get update --yes  \
+ && apt-get install --yes \
+                lua-dbi-mysql \
+                mariadb-client
+
+COPY ./rootfs/ /
