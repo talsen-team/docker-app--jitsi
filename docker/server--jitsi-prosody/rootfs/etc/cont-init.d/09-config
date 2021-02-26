@@ -1,5 +1,8 @@
 #!/usr/bin/with-contenv bash
 
-while ! mysqladmin ping -h"$MYSQL_DATABASE_HOST" --silent; do
-    sleep 1
-done
+if [ "$XMPP_STORAGE_MODE" = "sql" ];
+then
+    while ! mysqladmin ping -h"$MYSQL_DATABASE_HOST" --silent; do
+        sleep 1
+    done
+fi
