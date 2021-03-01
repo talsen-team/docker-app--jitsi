@@ -64,6 +64,7 @@ services:
       -                   JVB_BREWERY_MUC
       -                   JVB_ENABLE_APIS
       -                   JVB_PORT
+      -                   JVB_REGION
       -                   JVB_STUN_SERVERS
       -                   JVB_TCP_HARVESTER_DISABLED
       -                   JVB_TCP_MAPPED_PORT

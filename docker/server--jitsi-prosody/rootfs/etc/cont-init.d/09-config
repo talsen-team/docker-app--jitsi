@@ -2,7 +2,13 @@
 
 if [ "$XMPP_STORAGE_MODE" = "sql" ];
 then
+   DELAY_CHECK_COUNT=60
     while ! mysqladmin ping -h"$MYSQL_DATABASE_HOST" --silent; do
         sleep 1
+       ((--DELAY_CHECK_COUNT))
+       if [ "${DELAY_CHECK_COUNT}" = "0" ];
+       then
+           break
+       fi
     done
 fi
