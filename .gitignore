@@ -12,11 +12,7 @@
 !docker/server--jitsi-jvb/rootfs/**
 !docker/server--jitsi-jvb/default.docker
 !docker/server--jitsi-prosody/
-!docker/server--jitsi-prosody/rootfs/
-!docker/server--jitsi-prosody/rootfs/**
 !docker/server--jitsi-prosody/default.docker
-!docker/server--jitsi-prosody--database/
-!docker/server--jitsi-prosody--database/default.docker
 !docker/server--jitsi-web/
 !docker/server--jitsi-web/default.docker
 !docker-compose/
