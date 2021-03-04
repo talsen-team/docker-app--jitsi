@@ -46,7 +46,11 @@ services:
       -                   JVB_AUTH_USER
       -                   JVB_BREWERY_MUC
       -                   JVB_ENABLE_APIS
+      -                   JVB_OCTO_BIND_ADDRESS
+      -                   JVB_OCTO_BIND_PORT
+      -                   JVB_OCTO_PUBLIC_ADDRESS
       -                   JVB_PORT
+      -                   JVB_REGION
       -                   JVB_STUN_SERVERS
       -                   JVB_TCP_HARVESTER_DISABLED
       -                   JVB_TCP_PORT
