@@ -6,6 +6,8 @@
 !bash-util
 !docker/
 !docker/server--jitsi-jicofo/
+!docker/server--jitsi-jicofo/rootfs/
+!docker/server--jitsi-jicofo/rootfs/**
 !docker/server--jitsi-jicofo/default.docker
 !docker/server--jitsi-jvb/
 !docker/server--jitsi-jvb/rootfs/

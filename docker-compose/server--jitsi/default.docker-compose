@@ -20,6 +20,7 @@ services:
       -                   JIGASI_BREWERY_MUC
       -                   JIGASI_SIP_URI
       -                   JVB_BREWERY_MUC
+      -                   OCTO_BRIDGE_SELECTION_STRATEGY
       -                   TZ
       -                   XMPP_AUTH_DOMAIN
       -                   XMPP_DOMAIN
